@@ -5,8 +5,19 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="10dp" >
-
+    android:padding="10dp"
+    android:background="@drawable/back">
+
+
+
+
+
+
+
+
+
+
+
     <TextView
         android:id="@+id/promptTextView"
         android:layout_width="fill_parent"
@@ -16,7 +27,14 @@
         android:text="@string/hello_world"
         android:textSize="40sp"
         tools:context=".MainActivity" />
-
+
+
+
+
+
+
+
+
     <TextView
         android:id="@+id/answerTextView"
         android:layout_width="fill_parent"
@@ -25,7 +43,13 @@
         android:ems="10"
         android:gravity="center"
         android:textSize="40sp" />
-
+
+
+
+
+
+
+
     <TextView
         android:id="@+id/otherTextView"
         android:layout_width="fill_parent"
